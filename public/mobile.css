@@ -1,0 +1,208 @@
+@media only screen and (max-width: 1440px) {
+    .block3-blocks, .block3-blocks2 {
+        width: 23%;
+    }
+    .slider {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .phone {
+        width: 80%;
+    }
+    .block3-blocks, .block3-blocks2 {
+        width: 24%;
+    }
+    .block3-text span {
+        font-size: 30px;
+    }
+    .slider {
+        width: 90%;
+    }
+    main.container.block1-product-main {
+        flex-direction: column;
+    }
+    .blue {
+        width: 100%;
+    }
+    .block1-product {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .phone-main-left {
+        display: none;
+    }
+    .phone-button {
+        width: 100%;
+    }
+    .phone {width: 75%;}
+
+    .search-phone {
+        width: 25%;
+    }
+    .menu {
+        width: 44%;
+    }
+    .logo {
+        width: 27%;
+    }
+    .header-min-left {
+        width: 70%;
+    }
+    
+    .header-min-left ul {
+        width: 35%;
+    }
+    
+    .header-min-middle {
+        width: 60%;
+    }
+    .block2-right img {
+        margin-top: 0;
+    }
+    
+    .block2-top {
+        font-size: 40px;
+        line-height: 43px;
+    }
+    .block3-blocks, .block3-blocks2 {
+        width: 50%;
+    }
+    main.container.block3 {
+        flex-wrap: wrap;
+    }
+    main.container.block3 {
+        margin-top: 50px;
+    }
+    .footer-block1 {
+        width: 100%;
+    }
+    .container.see .block4-slide {
+        width: 47%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    img.butl.slick-arrow {
+        display: none !important;
+    }
+    img.butr.slick-arrow {
+        display: none !important;
+    }
+    .mobile{
+        display: block;
+    }
+
+    .container.containers {
+        display: none;
+    }
+    .header-min-left {
+        flex-flow: column nowrap;
+    }
+    
+    .header-min-left ul, .header-min-middle {
+        width: 100%;
+    }
+    main.container.block2 {
+        flex-direction: column;
+    }
+    
+    .block2-left {
+        width: 100%;
+        order: 2;
+    }
+    .block2-right {
+        width: 100%;
+        order: 1;
+    }
+    .block2-top {
+        margin-top: 20px;
+    }
+    main.block6 .container {
+        flex-direction: column;
+    }
+    
+    main.block6 .container div {
+        width: 100%;
+    }
+    .block6-form-input input[type="text"] {
+        margin-right: 10px;
+    }
+    .footer-block2 {
+        flex-wrap: wrap;
+    }
+    .footer-block2-first {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-block2-fivse {
+        margin-top: 20px;
+    }
+    .catalogs .block4-slide {
+        width: 47%;
+    }
+    .tab-block {
+        flex-direction: column;
+        text-align: center;
+    }
+    .tab-block1 {
+        width: 100%;
+    }
+    .container-mini {
+        width: 100%;
+    }
+    .news-block.row .col-md-8 {
+        margin-top: 0px;
+    }
+    .modal-dialog {
+        width: 96%;
+    }
+    .col-md-4.order-right {
+        display: flex;
+        justify-content: center;
+    }
+    .test{
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .modal-content {
+        padding: 10px;
+    }
+    form.modal-content-form input[type="text"], form.modal-content-form input[type="submit"] {
+        width: 100%;
+    }
+    .logo {
+        width: 50%;
+    }
+    .block3-blocks, .block3-blocks2 {
+        width: 100%;
+    }
+    .footer-block1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .block6-form-input input[type="text"] {
+        width: 100%;
+    }
+    .catalogs .block4-slide {
+        width: 100%;
+        text-align: center;
+    }
+    .catalog-block1-title-top {
+        width: 100%;
+    }
+    .catalog-block1-title-middle {margin-right: 10px;}
+    .catalog-block1-title {
+        flex-wrap: wrap;
+    }
+    .catalog-block1-show {
+        text-align: left;
+    }
+    .container.see .block4-slide {
+        width: 100%;
+    }
+}
